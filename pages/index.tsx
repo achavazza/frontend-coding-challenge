@@ -14,7 +14,7 @@ export default function Home() {
 			<MainWrapper>
 				<StepperWrapper>
 					{/*TODO: Make sure the Stepper handles clicks on the button*/}
-					<Stepper />
+					<Stepper currentStep={currentStep} />
 				</StepperWrapper>
 				<ButtonWrapper>
 					<Button onClick={handleNextStep}>Next</Button>
